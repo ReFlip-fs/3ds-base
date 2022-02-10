@@ -24,7 +24,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-function init3DS($localtionURI){
+function init3DS($locationURI){
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         header('Ugm-SessionID: test');
         header('Location: '. $locationURI);
